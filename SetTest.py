@@ -8,7 +8,10 @@ print('创建集合---------------------------------------')
 set1 = set('lyz1')
 set2 = {'yjj1', 'yjj2', 'yjj3', 'yjj4'}
 print('set1:{},set2:{}'.format(set1, set2))
-
+set0 = set('1')  # 不可设int
+print('set0:', set0)
+set3 = {1}  # 可设int
+print('set3:', set3)
 print('集合内置方法---------------------------------------')
 '''
 add()	            为集合添加元素

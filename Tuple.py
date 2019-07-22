@@ -14,6 +14,7 @@ print('元组2：', tup2)
 print('元组3：', tup3)
 print('元组4：', tup4)
 print('元组2的第2到4个元素：', tup2[1:4])
+print('元组2的第1个元素：', tup2[0])
 print('连接元组----------------------------')
 tup5 = tup1 + tup2
 print(tup5)
